@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>CV</title>
+	<style type="text/css">
+		body {
+			margin: 0 auto;
+			width: 600px;
+		}
+		.face {
+			width: 200px;
+			height: 200px;
+
+			color: white;
+			background-color: black;
+
+			border: 1px solid red;
+
+			-webkit-animation: transform 3s;
+			-webkit-animation-fill-mode: forwards;
+		}
+		@-webkit-keyframes transform {
+			from {
+				width: 200px;
+			}
+			to {
+				width: 100px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="front" class="face">
+		front
+	</div>
+	<div id="left" class="face">
+		left
+	</div>
+</body>
+</html>
